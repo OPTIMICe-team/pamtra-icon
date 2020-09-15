@@ -24,11 +24,11 @@ Joyrad94nml = {'radar_fwhr_beamwidth_deg':0.5,
 Joyrad10nml = {'radar_fwhr_beamwidth_deg':1.0,
                'radar_integration_time':2.0,
                'radar_k2':0.93,
-               'radar_max_v':78.07291,
-               'radar_min_v':-78.07291,
-               'radar_nfft':4096,
+               'radar_max_v':9.75911375,  #78.07291, #cropped for faster computations
+               'radar_min_v':-9.75911375, #-78.07291,
+               'radar_nfft':512, #4096,
                'radar_no_ave':10,
-               'radar_pnoise0':-11.9,#-48.0,
+               'radar_pnoise0':-48.0,
                'frequency':9.6}
 
 Joyrad35nml = {'radar_fwhr_beamwidth_deg':0.6,
